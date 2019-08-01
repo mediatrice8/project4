@@ -1,7 +1,7 @@
-.row{
+.col-md-12{
     background-image: url("https://images6.alphacoders.com/440/thumb-1920-440360.jpg");
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
 }
 .container >nav{
     display: flex;
@@ -19,4 +19,12 @@
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
+}
+h2{
+    text-align: center;
+}
+.col-md-3{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
 }
