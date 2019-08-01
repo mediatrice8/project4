@@ -1,21 +1,22 @@
-body{
+.row{
     background-image: url("https://images6.alphacoders.com/440/thumb-1920-440360.jpg");
     background-repeat: no-repeat;
     background-size: cover
 }
-nav{
+.container >nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     float: center;
 }
-a{
-    color: white;
+ nav >a{
+    color: black;
 }
 .col-md-12{
     text-align: center;
+    color:whitesmoke;
 }
 h1{
-    font-family: pacifico;
-    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
 }
