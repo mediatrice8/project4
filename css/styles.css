@@ -9,8 +9,11 @@
     justify-content: space-around;
     float: center;
 }
- nav >a{
+ nav a{
     color: black;
+}
+.container nav a{
+    text-decoration: none;
 }
 .col-md-12{
     text-align: center;
