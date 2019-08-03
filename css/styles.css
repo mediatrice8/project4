@@ -8,9 +8,14 @@
     flex-direction: row;
     justify-content: space-around;
     float: center;
+    background-color: black;
+}
+div >h1{
+    background-color: black;
+    color:white;   
 }
  nav a{
-    color: black;
+    color:white;
 }
 .container nav a{
     text-decoration: none;
@@ -51,4 +56,8 @@ justify-content: space-evenly;
     #form{
         display: none;
         text-align: center;
+        margin-top: 50px;
+    }
+    #show-contact{
+        display: none;
     }
