@@ -10,7 +10,7 @@
     </head>
     <body>
         <div class="clr">
-                <h1> KOSHA  HOUSE's PIZZA</h1>
+                <h1 align="center"> KOSHA  HOUSE's PIZZA</h1>
                 <img src="http://www.paellacreativa.com.ar/wp-content/uploads/2012/06/logos_creativos_pizzerias_6.jpg" height="80" align="center">
         </div><br>
         <div class="container">
@@ -23,7 +23,7 @@
             </nav>
         </div>
         <br><br>
-        <div class="fluid-container">
+        <div class="fluid-container" id="home">
             <div class="row">
                 <div class="col-md-12">
                     <img src="https://image.shutterstock.com/image-photo/pizzeria-glass-window-variety-italian-260nw-1424068076.jpg">
@@ -43,7 +43,7 @@
             </div>
             <div class="row">
                     <div class="col-md-4">
-                    <p>Our client be satsfied after eating foods from <strong>KOSHA HOUSE'S PIZZA</strong>because of some ingredients into our food,and also there are waiter who are in charge of taking care of the clients like bringing the menus or other help you need<br><br> <img src="https://image.shutterstock.com/image-photo/waiter-serving-salad-restaurant-close-260nw-527229706.jpg" align="right" height="200"></p> 
+                    <p>Our client be satsfied when they leave after eating foods from <strong>KOSHA HOUSE'S PIZZA</strong>because of some ingredients into our food,and also there are waiter who are in charge of taking care of the clients  are her for you like bringing the menus or other help you need<br><br> <img src="https://image.shutterstock.com/image-photo/waiter-serving-salad-restaurant-close-260nw-527229706.jpg" align="right" height="200"></p> 
                     </div>
                     <div class="col-md-8">
                     <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2012/02/08/23/pg-52-pizza-hut-ireland.jpg?w968h681" height="450" align="right"> 
@@ -111,19 +111,14 @@
         <div class="fluid-container">
             <div class="button" id="order">
             <button id="pizz">ORDER</button>
-        <!-- </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                <h2>Order pizza</h2> -->
                 <form id="form">
-    <select name="size">
+    <select name="quantitySize" id="quantitySize">
         <option value="small">Small 1500Rwf</option>
         <option value="medium">medium 2000Rwf</option>
         <option value="large">Large 3000Rwf</option>
     </select>
     <br>
-    <select name="crust">
+    <select name="crust" id="crust">
         <option value="new haven style">New haven style</option>
         <option value="naepolitan">Naepoliatan</option>
         <option value="dertroit">Dertroit</option>
@@ -139,7 +134,7 @@
         <option value="sogno "> sogno</option>
         <option value="hackensack">hackensack</option>
     </select><br>
-    <select name="topping">
+    <select name="topping" id="topping">
         <option value="papperoni">papperoni</option>
         <option value="mushrooms">Mushrooms</option>
         <option value="sausage">Sausage</option>
@@ -156,7 +151,7 @@
         <option value="beef">Beef</option>
         <option value="pesto">Pesto</option>
     </select><br>
-    <select name="number">
+    <select name="numberSize" id="numberSize">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -168,33 +163,35 @@
             <option value="9">9</option>
             <option value="10">10</option>
     </select><br>
-    <input type="number" name="" value="Total" placeholder="number.."><br>
-                <button type="submit" class="out">CheckOut</button>
+    <input type="number" name="moneyToPay" id="moneyToPay" placeholder="number.."><br>
+                <button type="button" class="out" onclick="getCheckOutData()">CheckOut</button>
                 </form>
             </div>
         </div>
     </div>
             </div>
           <div class="col-md-6">
-                <div id="show-contact">
+                <div id="show-contact" details>
                   <h2>Description</h2>
                   <p>size: <span class="size"></span></p>
-                  <p> crust: <span class="topped"></span></p>
+                  <p> crust: <span class="crust"></span></p>
                   <p> topping: <span class="topping"></span></p>
                   <p>Number: <span class="numbr"></span></p>
                   <p>Total: <span class="total"></span></p>
                 </div>
               </div>
+              <div class="footer" id="contact">
+                <nav>
+                        <a href="#home">HOME</a>
+                        <a href="#about">ABOUT US</a>
+                        <a href="#menu">MENU</a>
+                        <a href="#order">ORDER</a>
+                        <a href="#contact">CONTACT</a>
+                </nav>
+                Email:moringa@gmail.com<br>
+                Phone:+250788890196 <br>+23578590145
+        </div>
               <script src="js/jquery-3.4.1.js"></script>
               <script src="js/script.js"></script>
     </body>
-    <div class="footer">
-            <nav>
-                    <a href="#home">HOME</a>
-                    <a href="#about">ABOUT US</a>
-                    <a href="#menu">MENU</a>
-                    <a href="#order">ORDER</a>
-                    <a href="#contact">CONTACT</a>
-                </nav>
-    </div>
     </html>
