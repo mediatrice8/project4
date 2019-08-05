@@ -41,7 +41,7 @@ justify-content: space-evenly;
 
     
 }
- #pizz{
+#pizz{
      text-align: center;
      margin-top: 100px;
      margin-left: 500px;
@@ -52,16 +52,16 @@ justify-content: space-evenly;
      font-size: 40px;
      background-color: transparent;
     }
-    #form{
+#border{
         display: none;
-        text-align: center;
-        margin-top: 50px;
+        /* text-align: center;
+        margin-top: 50px; */
     }
-    #show{
+#show{
         display: none;
         background-color: gray;
     }
-    #contact{
+ #contact{
         font-size:14px;
         text-shadow:2px 2px 5px rgb(254, 254, 255);
         box-shadow:5px 4px 3px rgb(0,0,0);
@@ -69,12 +69,12 @@ justify-content: space-evenly;
         background-color:rgb(22, 22, 24);
         text-align: center;
     }
-    #contact nav{
+ #contact nav{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
-     #kosha{
+#kosha{
         font-size:20px;
         text-shadow:2px 2px 5px rgb(227, 227, 233);
         box-shadow:5px 4px 3px rgb(247, 244, 244);
