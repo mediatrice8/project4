@@ -7,9 +7,9 @@ My name is Mediatrice KAMPIRE
  In this KOSHA HOUSE's PIZZA, you order according to what the pizza you want then after receiving deatils about what  you have been orded.
 ## Technologies used.
 This project is created with this language
-.BOOTSTRAP
-.JAVASCRIPT &JQUERY
-.HTML & CSS
+* BOOTSTRAP
+* JAVASCRIPT &JQUERY
+* HTML & CSS
 ## Contact information
 CONTACT US
 -----------
