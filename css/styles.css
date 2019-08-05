@@ -52,14 +52,18 @@ justify-content: space-evenly;
      font-size: 40px;
      background-color: transparent;
     }
-#border{
+#bold{
         display: none;
-        /* text-align: center;
-        margin-top: 50px; */
     }
+.ordedPizza{
+    display: none;
+}
 #select ,#select1 ,#select2 ,#select3{
     height: 40px;
     width: 500px;
+}
+.ordedPizza{
+    color: black;
 }
 #show{
         display: none;
