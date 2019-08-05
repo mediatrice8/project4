@@ -8,7 +8,7 @@ My name is Mediatrice KAMPIRE
 ## Technologies used.
 This project is created with this language
 .BOOTSTRAP
-.JAVASCRIPT
+.JAVASCRIPT &JQUERY
 .HTML & CSS
 ## Contact information
 CONTACT US
